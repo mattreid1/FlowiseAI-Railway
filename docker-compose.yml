@@ -12,6 +12,8 @@ services:
             - APIKEY_PATH=${APIKEY_PATH}
             - LOG_PATH=${LOG_PATH}
             - EXECUTION_MODE=${EXECUTION_MODE}
+            - SECRETKEY_PATH=${SECRETKEY_PATH}
+            - PASSPHRASE=${PASSPHRASE}
             - DEBUG=${DEBUG}
         ports:
             - '${PORT}:${PORT}'
